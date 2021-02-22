@@ -6,165 +6,67 @@
 	objectVersion = 46;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		E2F3EC22933552428B7C9123C38217CB /* FBTabBar */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 8E66A8223446264835B6291D2C9692CA /* Build configuration list for PBXAggregateTarget "FBTabBar" */;
-			buildPhases = (
-			);
-			dependencies = (
-				0BDF8D4C56A1FD1AE079F8D0AA20D7F7 /* PBXTargetDependency */,
-			);
-			name = FBTabBar;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
-		0026C60FDF1F2E984EAFFF18F16BF1E3 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51566D0AF41FEBB1DD1BB7CA86B07225 /* ConstraintMultiplierTarget.swift */; };
-		03B1F675500FC26A0B50FD9F71E0DEA3 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807F5279ECA1E77BEC4455F1645BF6D7 /* ConstraintRelatableTarget.swift */; };
-		07CC4537800E3AF9B7666DDC9C42C89D /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C2F3330EB4A39DC3B20B40D8981F66 /* ConstraintViewDSL.swift */; };
 		0B6960783F637DC1D85929207D4EE904 /* Pods-FBTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0E72675CE63CE9DD5364A115E0FBBB /* Pods-FBTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		159BD4A1444E1923123C8F5180C5E69D /* LayoutConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EFECCF7F4E78B3021A97741173FC2F /* LayoutConstraintItem.swift */; };
-		25DF8412EB719F5CA451910588BEBFE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2DA6FBF008FF33021EEEF7FA497D4A01 /* ConstraintLayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4230A725EDA6C25944C70BFF90CCC3F4 /* ConstraintLayoutGuide+Extensions.swift */; };
-		32EF5363FA9C69DAE59E5A85328892EE /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81B0C23EADA502AA9895105ACF93AD /* ConstraintInsets.swift */; };
-		33E226F7A3C3B679263F1A4BF1EE1962 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F8B378A0D395518DE2DD11AE4B6F98 /* ConstraintMaker.swift */; };
-		369A13FC1ED554474B66F13EDD20DDBD /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CACD95C459F4D08F9C1E57893F55090 /* ConstraintDescription.swift */; };
-		38771D96E4656EBEEB3A666326673145 /* ConstraintPriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F1A25F3C9883F6A0A4428D8AFC44B2 /* ConstraintPriority.swift */; };
-		3AAC01B450C24E810B3B3FC65C20EDD7 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCD15E7A2AFE53263B4335C9B3D9813 /* UILayoutSupport+Extensions.swift */; };
-		3F6256D8ECD982AD3819374AAA959AE2 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3284DB6C9BFEF88606695BBC11E150 /* ConstraintView.swift */; };
-		45CB8BF5662F9547AAE55479E2B99875 /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EDC7C7A525E5D5191CA0B7A731184D /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4811CF364D348C6CF1347E71AB3575C4 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5975457FA577D667D0257900DF1D4FDD /* ConstraintView+Extensions.swift */; };
-		49F1BDA95816D2525B5075C133BB19D5 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F10AA484FE3CE9A074FF4CA855D1C7 /* ConstraintConstantTarget.swift */; };
 		536A94EE806EC22A6004DD2DA0683EB2 /* Pods-FBTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EC49090F5ED9B88FD4915C6388C78 /* Pods-FBTabBar_Tests-dummy.m */; };
-		56596096AADC303A2FF7DA39B27E6791 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB3146B382C3292E28917B8CF4356923 /* ConstraintMakerFinalizable.swift */; };
-		5B92ECD5755EA173C6477780CAE414A7 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460FE348E93FFA86EF28B0DE4C0F4A7D /* ConstraintLayoutGuide.swift */; };
-		6928B7994C748A9657E54DF399DB65F8 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BB2CE9C8C7607CDA3E1B49246B760E /* Debugging.swift */; };
+		56C25576FE9EED77761F04276D8E2F6D /* FBTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F5C650094BEE627CF938AB58399793 /* FBTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57D803525A2A9D0E0E3F69CCA889222D /* FBTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F93E17EDCC3EC4EAE4B2FFE9EAA3F57D /* FBTabBar-dummy.m */; };
 		6DAC66361888F6A19AFC1B15CE5DE9D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		6DF8243D1D3DA050F2363C98DE58AC50 /* Pods-FBTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9BC58539395C4A8054FF9E807D2C3E /* Pods-FBTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		743488CDD378D9E0C9EF574F8FC81D2F /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F2D0C7209EFA17EFECCB8074F0E9071 /* ConstraintAttributes.swift */; };
-		772C81B43CBA908B280DB9DCB2EB4E1B /* SnapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1B5C574EC29B2A222C6281A4A0B3BC /* SnapKit-dummy.m */; };
-		78E5F1E35A9F2558DDA7E5EEC481E691 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA070155DE459F51A650261C10EA9CB /* ConstraintDSL.swift */; };
-		8165BEC714FBD5D5F6A4F661A93776B2 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7478F64EB1BC7B207D2133307B4B5015 /* ConstraintMakerExtendable.swift */; };
-		97630DE9081BD7D815427F540C960F04 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103B8B35502B427E3F46D5237C681DCB /* LayoutConstraint.swift */; };
-		9A3F25BE4FB751E139B4ECCDBFEC2A9F /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D6B4E640B3D09C454814F36856E2EE /* ConstraintLayoutSupport.swift */; };
-		A6CD14012EA0096B834CB81A91C747F3 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D8610217E033F12A628571FD3D1684 /* Typealiases.swift */; };
-		AB25AE81F374342CA88C1238E9566305 /* Pods-FBTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA9BC42A35B1D74674DAD26A348C55 /* Pods-FBTabBar_Example-dummy.m */; };
-		AB7F4AE1D7BD5018E14C9FC48735030D /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5597D051B6350A61151221E8BEE0D0 /* ConstraintInsetTarget.swift */; };
-		AE07B513E18EF9041207C3DB574A6BD9 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91102F716DCE9969F79474488AEA2BFD /* ConstraintOffsetTarget.swift */; };
-		AE2D9FDC4443DF8AF4924B2855073C84 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89552C29B3090667057D8E56D2C3D81 /* ConstraintLayoutSupportDSL.swift */; };
-		C3AED7A7893731F144A9962FF1563B45 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766CC484A3E4DD46665D9EF06679B007 /* ConstraintMakerEditable.swift */; };
-		C91143A7951DCD389DC42290C950E7CE /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6E9D9A9A36CAC6827C30D02B1B414B /* Constraint.swift */; };
-		CA92CF240D976642B6B5F1960E570104 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB01221055BDABDD47999C671F4A9BD /* ConstraintItem.swift */; };
-		D4EF5EBC979078134034D6513F5D25AB /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3499D06B7741051669EFC6E6A929A57 /* ConstraintConfig.swift */; };
-		D7FA9FE508F18122181D55BDBFD1BB49 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DD21F59E9ABB6CFA8B14FAEE0B52DA /* ConstraintMakerPriortizable.swift */; };
-		DAC581D0B98017A4156626C528FB902F /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E887F5BC85E664CAF1EAD58DB6EF027D /* ConstraintMakerRelatable.swift */; };
-		DBCD85AEC97BDC3F2F6F7AD6CF93FEB9 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6199B0E33536DD7E23A71C2A1DFA3CB3 /* ConstraintPriorityTarget.swift */; };
-		E801D4081D29888199B2DEED18C74C77 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C80000E1CA4369B2E82035A1825982D /* ConstraintRelation.swift */; };
-		FCFF9CCF5ECF51AF074DE4ACDF3EB908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		FF3BF510076451F406ACE4C778D8C405 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7413D1E3B3849A8B98CECBCB1E3EA510 /* ConstraintLayoutGuideDSL.swift */; };
+		A8B3C76CC9B06EB208B6D6A06BA2624D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 999DF8F543A1EB7AE0F8B30B20913530 /* ReplaceMe.swift */; };
+		ABB56807774D9A602E29DE356881C807 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B5A634C1E620E021D0FB11D406C0FDE8 /* Pods-FBTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A9BC58539395C4A8054FF9E807D2C3E /* Pods-FBTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C52701CE6661A43362BA8B59FF282675 /* Pods-FBTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA9BC42A35B1D74674DAD26A348C55 /* Pods-FBTabBar_Example-dummy.m */; };
+		ED4C291DC5176879498F2F540618C2EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		18B8D666F810601FD1354C130193826E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
-			remoteInfo = SnapKit;
-		};
-		3868D2684FB96BCC68982108F746D772 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F3CFBD46AD3E689B9BF0ED76CD9CC753;
-			remoteInfo = "Pods-FBTabBar_Example";
-		};
-		51DB25E00038751C4173A3E3733BF13E /* PBXContainerItemProxy */ = {
+		491E6E39471C7BDC2B9EED4D5E719B85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E2F3EC22933552428B7C9123C38217CB;
 			remoteInfo = FBTabBar;
 		};
-		DB8D37FE3383C9DDD05277AA81596075 /* PBXContainerItemProxy */ = {
+		59D3C85AB336B3C4591482583A816287 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19622742EBA51E823D6DAE3F8CDBFAD4;
-			remoteInfo = SnapKit;
+			remoteGlobalIDString = F3CFBD46AD3E689B9BF0ED76CD9CC753;
+			remoteInfo = "Pods-FBTabBar_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00BB2CE9C8C7607CDA3E1B49246B760E /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
-		00EFECCF7F4E78B3021A97741173FC2F /* LayoutConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraintItem.swift; path = Source/LayoutConstraintItem.swift; sourceTree = "<group>"; };
-		09C2F3330EB4A39DC3B20B40D8981F66 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		0A1E75FEE304E2EE86C844411651DF7B /* Pods-FBTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FBTabBar_Tests.modulemap"; sourceTree = "<group>"; };
-		103B8B35502B427E3F46D5237C681DCB /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		12F000A71E53C76E39675FA10F3AA84A /* FBTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBTabBar.modulemap; sourceTree = "<group>"; };
 		1838F9D57245B5E5B73A583BBBA97DC2 /* Pods_FBTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FBTabBar_Tests.framework; path = "Pods-FBTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BAF71F7D3787603CC1C430F4A2D37FB /* FBTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBTabBar.release.xcconfig; sourceTree = "<group>"; };
 		1BD24A11F372F8591609E27B788F8648 /* Pods-FBTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1C81B0C23EADA502AA9895105ACF93AD /* ConstraintInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsets.swift; path = Source/ConstraintInsets.swift; sourceTree = "<group>"; };
-		29693EC049D6AC1AE94A7B743D01A9AB /* SnapKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.debug.xcconfig; sourceTree = "<group>"; };
+		238E8C7CE9E62618C1D927B080D58627 /* FBTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBTabBar-Info.plist"; sourceTree = "<group>"; };
 		2A9BC58539395C4A8054FF9E807D2C3E /* Pods-FBTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		369CDFDCC1680F689E26DB020BC76070 /* FBTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBTabBar.debug.xcconfig; sourceTree = "<group>"; };
-		37F1A25F3C9883F6A0A4428D8AFC44B2 /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
-		3B569D02FFB2C8143A71D4511C970AC4 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		3CEED8B267E0F6C4D62DACD78CD7156D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		30F5C650094BEE627CF938AB58399793 /* FBTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBTabBar-umbrella.h"; sourceTree = "<group>"; };
+		36A717A3F77308178521210F1F0D5CDA /* FBTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBTabBar.framework; path = FBTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4218EE8C84115F857D4C70CFA13AEB91 /* Pods-FBTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FBTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4230A725EDA6C25944C70BFF90CCC3F4 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		42EDC7C7A525E5D5191CA0B7A731184D /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
-		460FE348E93FFA86EF28B0DE4C0F4A7D /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuide.swift; path = Source/ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
-		46F8B378A0D395518DE2DD11AE4B6F98 /* ConstraintMaker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMaker.swift; path = Source/ConstraintMaker.swift; sourceTree = "<group>"; };
 		4CF1BDD06294BA9BA1C0D232B801F8B4 /* Pods-FBTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4DCD15E7A2AFE53263B4335C9B3D9813 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UILayoutSupport+Extensions.swift"; path = "Source/UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
-		51566D0AF41FEBB1DD1BB7CA86B07225 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
-		5975457FA577D667D0257900DF1D4FDD /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintView+Extensions.swift"; path = "Source/ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
 		5BD625761EFBA2DAA58CF9FDDBBEE79A /* Pods-FBTabBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBTabBar_Tests-Info.plist"; sourceTree = "<group>"; };
-		6199B0E33536DD7E23A71C2A1DFA3CB3 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
-		64ACF4FEEA791CDE360E5713ED674908 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		6CACD95C459F4D08F9C1E57893F55090 /* ConstraintDescription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDescription.swift; path = Source/ConstraintDescription.swift; sourceTree = "<group>"; };
 		712EF5E39DF2F4B5AC09E585C3538F59 /* Pods-FBTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		72D3E9E5D6E3C028CCDF090A0BB9F4F7 /* Pods-FBTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7413D1E3B3849A8B98CECBCB1E3EA510 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutGuideDSL.swift; path = Source/ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
-		7478F64EB1BC7B207D2133307B4B5015 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerExtendable.swift; path = Source/ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
-		766CC484A3E4DD46665D9EF06679B007 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerEditable.swift; path = Source/ConstraintMakerEditable.swift; sourceTree = "<group>"; };
-		7A3284DB6C9BFEF88606695BBC11E150 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
-		807F5279ECA1E77BEC4455F1645BF6D7 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
-		848E9BA38AE7A77B37C78B343E836974 /* SnapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SnapKit-Info.plist"; sourceTree = "<group>"; };
-		8C80000E1CA4369B2E82035A1825982D /* ConstraintRelation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelation.swift; path = Source/ConstraintRelation.swift; sourceTree = "<group>"; };
-		8F2D0C7209EFA17EFECCB8074F0E9071 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
-		91102F716DCE9969F79474488AEA2BFD /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintOffsetTarget.swift; path = Source/ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
-		979486118B3E90C08386079D57962701 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SnapKit.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		865F9B06976B04B4821B5F8C876BBABB /* FBTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBTabBar-prefix.pch"; sourceTree = "<group>"; };
+		999DF8F543A1EB7AE0F8B30B20913530 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = FBTabBar/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3499D06B7741051669EFC6E6A929A57 /* ConstraintConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConfig.swift; path = Source/ConstraintConfig.swift; sourceTree = "<group>"; };
-		AB1B5C574EC29B2A222C6281A4A0B3BC /* SnapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SnapKit-dummy.m"; sourceTree = "<group>"; };
 		AC3AC13EEC8C4E8EEF06CDD4E73F35A1 /* Pods-FBTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AC4413EE158AEDC5D4A3A0E3F82477C4 /* Pods-FBTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FBTabBar_Example-Info.plist"; sourceTree = "<group>"; };
-		AD6E9D9A9A36CAC6827C30D02B1B414B /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
+		AFDB9583E3028F58535CE8BD50534A11 /* FBTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBTabBar.debug.xcconfig; sourceTree = "<group>"; };
 		B65483BB1E5ED8C9198F98DECAEF7973 /* Pods-FBTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FBTabBar_Example.modulemap"; sourceTree = "<group>"; };
-		B8BEF98EFE5AA5B53394A45BAC472945 /* SnapKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.release.xcconfig; sourceTree = "<group>"; };
-		BAA070155DE459F51A650261C10EA9CB /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
 		C15EC49090F5ED9B88FD4915C6388C78 /* Pods-FBTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
 		C5BA9BC42A35B1D74674DAD26A348C55 /* Pods-FBTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FBTabBar_Example-dummy.m"; sourceTree = "<group>"; };
-		C89552C29B3090667057D8E56D2C3D81 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
-		C8D6B4E640B3D09C454814F36856E2EE /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		CA3534A40EA093B369E8F4AB1132955D /* Pods-FBTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D0D8610217E033F12A628571FD3D1684 /* Typealiases.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Typealiases.swift; path = Source/Typealiases.swift; sourceTree = "<group>"; };
-		D3DD21F59E9ABB6CFA8B14FAEE0B52DA /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerPriortizable.swift; path = Source/ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
 		D8BB32D91B0C0BB984D885440DADF904 /* Pods_FBTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FBTabBar_Example.framework; path = "Pods-FBTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA5597D051B6350A61151221E8BEE0D0 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
 		DB87BB853F231802C78B7D4AB9BEB4DF /* Pods-FBTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FBTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DBB01221055BDABDD47999C671F4A9BD /* ConstraintItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintItem.swift; path = Source/ConstraintItem.swift; sourceTree = "<group>"; };
-		DFE592D85EFF2CA64689657F6F1117FA /* FBTabBar.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FBTabBar.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E1F10AA484FE3CE9A074FF4CA855D1C7 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
-		E2070246046EC94EF1396AC30E3FC5E8 /* SnapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SnapKit.modulemap; sourceTree = "<group>"; };
+		E27DEE34892348B6117823B837E877C1 /* FBTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBTabBar.release.xcconfig; sourceTree = "<group>"; };
 		E5C0EB5EB459C1FBB5AC7FB266A3F489 /* Pods-FBTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FBTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E887F5BC85E664CAF1EAD58DB6EF027D /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		EE0E72675CE63CE9DD5364A115E0FBBB /* Pods-FBTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FBTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FB3146B382C3292E28917B8CF4356923 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		F93E17EDCC3EC4EAE4B2FFE9EAA3F57D /* FBTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBTabBar-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,47 +78,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5697C8D14B48ABFB13EA3E39AF57CE73 /* Frameworks */ = {
+		45B5796279B45AF3C7191B186F2F2900 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25DF8412EB719F5CA451910588BEBFE9 /* Foundation.framework in Frameworks */,
+				ABB56807774D9A602E29DE356881C807 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6F224A1B6BBFB04523F822CBFF48ED3 /* Frameworks */ = {
+		CCA35CF3AF5468252F3CAD8FC3471215 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCFF9CCF5ECF51AF074DE4ACDF3EB908 /* Foundation.framework in Frameworks */,
+				ED4C291DC5176879498F2F540618C2EC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AE54539B1994F041AA853FE37938F21 /* Pod */ = {
+		20978A67B5BCCB75F11E65A4BB550600 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DFE592D85EFF2CA64689657F6F1117FA /* FBTabBar.podspec */,
-				64ACF4FEEA791CDE360E5713ED674908 /* LICENSE */,
-				3CEED8B267E0F6C4D62DACD78CD7156D /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		20C3B231165CCFA2F5CE2B7D89D3C2DC /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5FB937356C8F110BEDAD253105377A22 /* FBTabBar */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		427B270BD76A5EF45313FBF29233B96D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CA51EB6A266DFF60E2669DC4F20AE5DD /* SnapKit */,
+				9A41D03D2789B0788A8607E1AAB21E99 /* FBTabBar */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -238,36 +122,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5C965241BF891FF0EB3D7FBBA6B78F8B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D8BB32D91B0C0BB984D885440DADF904 /* Pods_FBTabBar_Example.framework */,
-				1838F9D57245B5E5B73A583BBBA97DC2 /* Pods_FBTabBar_Tests.framework */,
-				979486118B3E90C08386079D57962701 /* SnapKit.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		5FB937356C8F110BEDAD253105377A22 /* FBTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				0AE54539B1994F041AA853FE37938F21 /* Pod */,
-				6E68A038339476C9B5B30C30E6274986 /* Support Files */,
-			);
-			name = FBTabBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		6E68A038339476C9B5B30C30E6274986 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				369CDFDCC1680F689E26DB020BC76070 /* FBTabBar.debug.xcconfig */,
-				1BAF71F7D3787603CC1C430F4A2D37FB /* FBTabBar.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FBTabBar";
-			sourceTree = "<group>";
-		};
 		928116B9162B1C90DC8C9C707AD94754 /* Pods-FBTabBar_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -285,47 +139,14 @@
 			path = "Target Support Files/Pods-FBTabBar_Example";
 			sourceTree = "<group>";
 		};
-		CA51EB6A266DFF60E2669DC4F20AE5DD /* SnapKit */ = {
+		9A41D03D2789B0788A8607E1AAB21E99 /* FBTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				AD6E9D9A9A36CAC6827C30D02B1B414B /* Constraint.swift */,
-				8F2D0C7209EFA17EFECCB8074F0E9071 /* ConstraintAttributes.swift */,
-				A3499D06B7741051669EFC6E6A929A57 /* ConstraintConfig.swift */,
-				E1F10AA484FE3CE9A074FF4CA855D1C7 /* ConstraintConstantTarget.swift */,
-				6CACD95C459F4D08F9C1E57893F55090 /* ConstraintDescription.swift */,
-				BAA070155DE459F51A650261C10EA9CB /* ConstraintDSL.swift */,
-				1C81B0C23EADA502AA9895105ACF93AD /* ConstraintInsets.swift */,
-				DA5597D051B6350A61151221E8BEE0D0 /* ConstraintInsetTarget.swift */,
-				DBB01221055BDABDD47999C671F4A9BD /* ConstraintItem.swift */,
-				460FE348E93FFA86EF28B0DE4C0F4A7D /* ConstraintLayoutGuide.swift */,
-				4230A725EDA6C25944C70BFF90CCC3F4 /* ConstraintLayoutGuide+Extensions.swift */,
-				7413D1E3B3849A8B98CECBCB1E3EA510 /* ConstraintLayoutGuideDSL.swift */,
-				C8D6B4E640B3D09C454814F36856E2EE /* ConstraintLayoutSupport.swift */,
-				C89552C29B3090667057D8E56D2C3D81 /* ConstraintLayoutSupportDSL.swift */,
-				46F8B378A0D395518DE2DD11AE4B6F98 /* ConstraintMaker.swift */,
-				766CC484A3E4DD46665D9EF06679B007 /* ConstraintMakerEditable.swift */,
-				7478F64EB1BC7B207D2133307B4B5015 /* ConstraintMakerExtendable.swift */,
-				FB3146B382C3292E28917B8CF4356923 /* ConstraintMakerFinalizable.swift */,
-				D3DD21F59E9ABB6CFA8B14FAEE0B52DA /* ConstraintMakerPriortizable.swift */,
-				E887F5BC85E664CAF1EAD58DB6EF027D /* ConstraintMakerRelatable.swift */,
-				51566D0AF41FEBB1DD1BB7CA86B07225 /* ConstraintMultiplierTarget.swift */,
-				91102F716DCE9969F79474488AEA2BFD /* ConstraintOffsetTarget.swift */,
-				37F1A25F3C9883F6A0A4428D8AFC44B2 /* ConstraintPriority.swift */,
-				6199B0E33536DD7E23A71C2A1DFA3CB3 /* ConstraintPriorityTarget.swift */,
-				807F5279ECA1E77BEC4455F1645BF6D7 /* ConstraintRelatableTarget.swift */,
-				8C80000E1CA4369B2E82035A1825982D /* ConstraintRelation.swift */,
-				7A3284DB6C9BFEF88606695BBC11E150 /* ConstraintView.swift */,
-				5975457FA577D667D0257900DF1D4FDD /* ConstraintView+Extensions.swift */,
-				09C2F3330EB4A39DC3B20B40D8981F66 /* ConstraintViewDSL.swift */,
-				00BB2CE9C8C7607CDA3E1B49246B760E /* Debugging.swift */,
-				103B8B35502B427E3F46D5237C681DCB /* LayoutConstraint.swift */,
-				00EFECCF7F4E78B3021A97741173FC2F /* LayoutConstraintItem.swift */,
-				D0D8610217E033F12A628571FD3D1684 /* Typealiases.swift */,
-				4DCD15E7A2AFE53263B4335C9B3D9813 /* UILayoutSupport+Extensions.swift */,
-				D28E246011041898C1EA6C3AAF01971C /* Support Files */,
+				999DF8F543A1EB7AE0F8B30B20913530 /* ReplaceMe.swift */,
+				F7CED6200DB3A72BF9D9AFB786A5CB40 /* Support Files */,
 			);
-			name = SnapKit;
-			path = SnapKit;
+			name = FBTabBar;
+			path = FBTabBar;
 			sourceTree = "<group>";
 		};
 		CAFAEA4332F892768564E70DF9A89F4A /* Pods-FBTabBar_Tests */ = {
@@ -348,10 +169,9 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				20C3B231165CCFA2F5CE2B7D89D3C2DC /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				427B270BD76A5EF45313FBF29233B96D /* Pods */,
-				5C965241BF891FF0EB3D7FBBA6B78F8B /* Products */,
+				20978A67B5BCCB75F11E65A4BB550600 /* Pods */,
+				E1D5A6D7FE2B1B59C269314A279681F1 /* Products */,
 				448AEA012C5D951485ABE9E139F1F462 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -364,29 +184,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D28E246011041898C1EA6C3AAF01971C /* Support Files */ = {
+		E1D5A6D7FE2B1B59C269314A279681F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E2070246046EC94EF1396AC30E3FC5E8 /* SnapKit.modulemap */,
-				AB1B5C574EC29B2A222C6281A4A0B3BC /* SnapKit-dummy.m */,
-				848E9BA38AE7A77B37C78B343E836974 /* SnapKit-Info.plist */,
-				3B569D02FFB2C8143A71D4511C970AC4 /* SnapKit-prefix.pch */,
-				42EDC7C7A525E5D5191CA0B7A731184D /* SnapKit-umbrella.h */,
-				29693EC049D6AC1AE94A7B743D01A9AB /* SnapKit.debug.xcconfig */,
-				B8BEF98EFE5AA5B53394A45BAC472945 /* SnapKit.release.xcconfig */,
+				36A717A3F77308178521210F1F0D5CDA /* FBTabBar.framework */,
+				D8BB32D91B0C0BB984D885440DADF904 /* Pods_FBTabBar_Example.framework */,
+				1838F9D57245B5E5B73A583BBBA97DC2 /* Pods_FBTabBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CED6200DB3A72BF9D9AFB786A5CB40 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				12F000A71E53C76E39675FA10F3AA84A /* FBTabBar.modulemap */,
+				F93E17EDCC3EC4EAE4B2FFE9EAA3F57D /* FBTabBar-dummy.m */,
+				238E8C7CE9E62618C1D927B080D58627 /* FBTabBar-Info.plist */,
+				865F9B06976B04B4821B5F8C876BBABB /* FBTabBar-prefix.pch */,
+				30F5C650094BEE627CF938AB58399793 /* FBTabBar-umbrella.h */,
+				AFDB9583E3028F58535CE8BD50534A11 /* FBTabBar.debug.xcconfig */,
+				E27DEE34892348B6117823B837E877C1 /* FBTabBar.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/SnapKit";
+			path = "../Target Support Files/FBTabBar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		56D0AC593C9F3C68E7DE307A0FB33008 /* Headers */ = {
+		222F1E14FB4DC1AEDE8DF67F702587AF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DF8243D1D3DA050F2363C98DE58AC50 /* Pods-FBTabBar_Example-umbrella.h in Headers */,
+				56C25576FE9EED77761F04276D8E2F6D /* FBTabBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,35 +228,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		86EE07CE14EA50B8019FA790AF154A4E /* Headers */ = {
+		C06859B6B05AFC122769C4EC66C33C1A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45CB8BF5662F9547AAE55479E2B99875 /* SnapKit-umbrella.h in Headers */,
+				B5A634C1E620E021D0FB11D406C0FDE8 /* Pods-FBTabBar_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F6811740E6ABD108D7D7599F840EFCA2 /* Build configuration list for PBXNativeTarget "SnapKit" */;
-			buildPhases = (
-				86EE07CE14EA50B8019FA790AF154A4E /* Headers */,
-				EA9FAF2F167FF6938A177CB1F0C1757E /* Sources */,
-				D6F224A1B6BBFB04523F822CBFF48ED3 /* Frameworks */,
-				6D6041296386C8579F06E84A6803CAF2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SnapKit;
-			productName = SnapKit;
-			productReference = 979486118B3E90C08386079D57962701 /* SnapKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A3E262840163E0DDF42A3F1519901D23 /* Pods-FBTabBar_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E6C51A480DC1CA0ED49538C57D1CE67 /* Build configuration list for PBXNativeTarget "Pods-FBTabBar_Tests" */;
@@ -439,27 +251,44 @@
 			buildRules = (
 			);
 			dependencies = (
-				8D347E45581017A0B9C3D7D707AD6945 /* PBXTargetDependency */,
+				9981BF3990950BF8300E47B9D158FC89 /* PBXTargetDependency */,
 			);
 			name = "Pods-FBTabBar_Tests";
 			productName = "Pods-FBTabBar_Tests";
 			productReference = 1838F9D57245B5E5B73A583BBBA97DC2 /* Pods_FBTabBar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F3CFBD46AD3E689B9BF0ED76CD9CC753 /* Pods-FBTabBar_Example */ = {
+		E2F3EC22933552428B7C9123C38217CB /* FBTabBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 222902B0EFAA06BEA956175208AC3EA8 /* Build configuration list for PBXNativeTarget "Pods-FBTabBar_Example" */;
+			buildConfigurationList = 1328A9F6468E0D0C943A18601DB74755 /* Build configuration list for PBXNativeTarget "FBTabBar" */;
 			buildPhases = (
-				56D0AC593C9F3C68E7DE307A0FB33008 /* Headers */,
-				80FE5C993C4EBAB642D24C0BB74FF558 /* Sources */,
-				5697C8D14B48ABFB13EA3E39AF57CE73 /* Frameworks */,
-				4F133217AE0F569CB9D670572E076C04 /* Resources */,
+				222F1E14FB4DC1AEDE8DF67F702587AF /* Headers */,
+				96563666E55AE03F4F172D3356A26D41 /* Sources */,
+				CCA35CF3AF5468252F3CAD8FC3471215 /* Frameworks */,
+				267221569465480D01E6E83627E656C7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				13572BD06461FABEC9460CAED6322F0D /* PBXTargetDependency */,
-				8882B6320C236CEACF4872A101B73A9D /* PBXTargetDependency */,
+			);
+			name = FBTabBar;
+			productName = FBTabBar;
+			productReference = 36A717A3F77308178521210F1F0D5CDA /* FBTabBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F3CFBD46AD3E689B9BF0ED76CD9CC753 /* Pods-FBTabBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5301A13F998280A8ABC0F813940F16C /* Build configuration list for PBXNativeTarget "Pods-FBTabBar_Example" */;
+			buildPhases = (
+				C06859B6B05AFC122769C4EC66C33C1A /* Headers */,
+				BF3A7937A3943C1B9106C875273BCE69 /* Sources */,
+				45B5796279B45AF3C7191B186F2F2900 /* Frameworks */,
+				9EC352FFC65DA82B221C509F7B0D9C04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DBB63C83D411AFA3027A5A693CB8F51 /* PBXTargetDependency */,
 			);
 			name = "Pods-FBTabBar_Example";
 			productName = "Pods-FBTabBar_Example";
@@ -484,14 +313,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 5C965241BF891FF0EB3D7FBBA6B78F8B /* Products */;
+			productRefGroup = E1D5A6D7FE2B1B59C269314A279681F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E2F3EC22933552428B7C9123C38217CB /* FBTabBar */,
 				F3CFBD46AD3E689B9BF0ED76CD9CC753 /* Pods-FBTabBar_Example */,
 				A3E262840163E0DDF42A3F1519901D23 /* Pods-FBTabBar_Tests */,
-				19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */,
 			);
 		};
 /* End PBXProject section */
@@ -504,14 +332,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F133217AE0F569CB9D670572E076C04 /* Resources */ = {
+		267221569465480D01E6E83627E656C7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D6041296386C8579F06E84A6803CAF2 /* Resources */ = {
+		9EC352FFC65DA82B221C509F7B0D9C04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -521,11 +349,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		80FE5C993C4EBAB642D24C0BB74FF558 /* Sources */ = {
+		96563666E55AE03F4F172D3356A26D41 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB25AE81F374342CA88C1238E9566305 /* Pods-FBTabBar_Example-dummy.m in Sources */,
+				57D803525A2A9D0E0E3F69CCA889222D /* FBTabBar-dummy.m in Sources */,
+				A8B3C76CC9B06EB208B6D6A06BA2624D /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3A7937A3943C1B9106C875273BCE69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52701CE6661A43362BA8B59FF282675 /* Pods-FBTabBar_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,83 +374,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA9FAF2F167FF6938A177CB1F0C1757E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C91143A7951DCD389DC42290C950E7CE /* Constraint.swift in Sources */,
-				743488CDD378D9E0C9EF574F8FC81D2F /* ConstraintAttributes.swift in Sources */,
-				D4EF5EBC979078134034D6513F5D25AB /* ConstraintConfig.swift in Sources */,
-				49F1BDA95816D2525B5075C133BB19D5 /* ConstraintConstantTarget.swift in Sources */,
-				369A13FC1ED554474B66F13EDD20DDBD /* ConstraintDescription.swift in Sources */,
-				78E5F1E35A9F2558DDA7E5EEC481E691 /* ConstraintDSL.swift in Sources */,
-				32EF5363FA9C69DAE59E5A85328892EE /* ConstraintInsets.swift in Sources */,
-				AB7F4AE1D7BD5018E14C9FC48735030D /* ConstraintInsetTarget.swift in Sources */,
-				CA92CF240D976642B6B5F1960E570104 /* ConstraintItem.swift in Sources */,
-				2DA6FBF008FF33021EEEF7FA497D4A01 /* ConstraintLayoutGuide+Extensions.swift in Sources */,
-				5B92ECD5755EA173C6477780CAE414A7 /* ConstraintLayoutGuide.swift in Sources */,
-				FF3BF510076451F406ACE4C778D8C405 /* ConstraintLayoutGuideDSL.swift in Sources */,
-				9A3F25BE4FB751E139B4ECCDBFEC2A9F /* ConstraintLayoutSupport.swift in Sources */,
-				AE2D9FDC4443DF8AF4924B2855073C84 /* ConstraintLayoutSupportDSL.swift in Sources */,
-				33E226F7A3C3B679263F1A4BF1EE1962 /* ConstraintMaker.swift in Sources */,
-				C3AED7A7893731F144A9962FF1563B45 /* ConstraintMakerEditable.swift in Sources */,
-				8165BEC714FBD5D5F6A4F661A93776B2 /* ConstraintMakerExtendable.swift in Sources */,
-				56596096AADC303A2FF7DA39B27E6791 /* ConstraintMakerFinalizable.swift in Sources */,
-				D7FA9FE508F18122181D55BDBFD1BB49 /* ConstraintMakerPriortizable.swift in Sources */,
-				DAC581D0B98017A4156626C528FB902F /* ConstraintMakerRelatable.swift in Sources */,
-				0026C60FDF1F2E984EAFFF18F16BF1E3 /* ConstraintMultiplierTarget.swift in Sources */,
-				AE07B513E18EF9041207C3DB574A6BD9 /* ConstraintOffsetTarget.swift in Sources */,
-				38771D96E4656EBEEB3A666326673145 /* ConstraintPriority.swift in Sources */,
-				DBCD85AEC97BDC3F2F6F7AD6CF93FEB9 /* ConstraintPriorityTarget.swift in Sources */,
-				03B1F675500FC26A0B50FD9F71E0DEA3 /* ConstraintRelatableTarget.swift in Sources */,
-				E801D4081D29888199B2DEED18C74C77 /* ConstraintRelation.swift in Sources */,
-				4811CF364D348C6CF1347E71AB3575C4 /* ConstraintView+Extensions.swift in Sources */,
-				3F6256D8ECD982AD3819374AAA959AE2 /* ConstraintView.swift in Sources */,
-				07CC4537800E3AF9B7666DDC9C42C89D /* ConstraintViewDSL.swift in Sources */,
-				6928B7994C748A9657E54DF399DB65F8 /* Debugging.swift in Sources */,
-				97630DE9081BD7D815427F540C960F04 /* LayoutConstraint.swift in Sources */,
-				159BD4A1444E1923123C8F5180C5E69D /* LayoutConstraintItem.swift in Sources */,
-				772C81B43CBA908B280DB9DCB2EB4E1B /* SnapKit-dummy.m in Sources */,
-				A6CD14012EA0096B834CB81A91C747F3 /* Typealiases.swift in Sources */,
-				3AAC01B450C24E810B3B3FC65C20EDD7 /* UILayoutSupport+Extensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0BDF8D4C56A1FD1AE079F8D0AA20D7F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = 18B8D666F810601FD1354C130193826E /* PBXContainerItemProxy */;
-		};
-		13572BD06461FABEC9460CAED6322F0D /* PBXTargetDependency */ = {
+		6DBB63C83D411AFA3027A5A693CB8F51 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBTabBar;
 			target = E2F3EC22933552428B7C9123C38217CB /* FBTabBar */;
-			targetProxy = 51DB25E00038751C4173A3E3733BF13E /* PBXContainerItemProxy */;
+			targetProxy = 491E6E39471C7BDC2B9EED4D5E719B85 /* PBXContainerItemProxy */;
 		};
-		8882B6320C236CEACF4872A101B73A9D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SnapKit;
-			target = 19622742EBA51E823D6DAE3F8CDBFAD4 /* SnapKit */;
-			targetProxy = DB8D37FE3383C9DDD05277AA81596075 /* PBXContainerItemProxy */;
-		};
-		8D347E45581017A0B9C3D7D707AD6945 /* PBXTargetDependency */ = {
+		9981BF3990950BF8300E47B9D158FC89 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-FBTabBar_Example";
 			target = F3CFBD46AD3E689B9BF0ED76CD9CC753 /* Pods-FBTabBar_Example */;
-			targetProxy = 3868D2684FB96BCC68982108F746D772 /* PBXContainerItemProxy */;
+			targetProxy = 59D3C85AB336B3C4591482583A816287 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20CCCD7C2F728C3F2A6B053E0DB71B34 /* Release */ = {
+		5BFF8D4482FFC2AB06D3BFB3CDF9BE95 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB87BB853F231802C78B7D4AB9BEB4DF /* Pods-FBTabBar_Example.release.xcconfig */;
+			baseConfigurationReference = AFDB9583E3028F58535CE8BD50534A11 /* FBTabBar.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBTabBar/FBTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBTabBar/FBTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBTabBar/FBTabBar.modulemap";
+				PRODUCT_MODULE_NAME = FBTabBar;
+				PRODUCT_NAME = FBTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7383746B408CDAC03F5A2147131F9BC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CF1BDD06294BA9BA1C0D232B801F8B4 /* Pods-FBTabBar_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -624,7 +438,200 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		80CC536A94C44603340FAAAA78C4E922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3534A40EA093B369E8F4AB1132955D /* Pods-FBTabBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		829138FB42C3DC31B16A10DA0AC5CFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27DEE34892348B6117823B837E877C1 /* FBTabBar.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBTabBar/FBTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBTabBar/FBTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBTabBar/FBTabBar.modulemap";
+				PRODUCT_MODULE_NAME = FBTabBar;
+				PRODUCT_NAME = FBTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		98F0F3163786959405625E8BE08D8C71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D3E9E5D6E3C028CCDF090A0BB9F4F7 /* Pods-FBTabBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD138741C338E9D31348BD135B60D73D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB87BB853F231802C78B7D4AB9BEB4DF /* Pods-FBTabBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example.modulemap";
@@ -642,7 +649,7 @@
 			};
 			name = Release;
 		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -695,7 +702,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -708,263 +715,14 @@
 			};
 			name = Debug;
 		};
-		408F62F4017C6F985652E2F35615F7A1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA3534A40EA093B369E8F4AB1132955D /* Pods-FBTabBar_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		785F2E3A6C7CDCAEFC6CE7D66D331654 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 369CDFDCC1680F689E26DB020BC76070 /* FBTabBar.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		96ABB14220D10826DD905FB2779AA2A7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29693EC049D6AC1AE94A7B743D01A9AB /* SnapKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C3665BBB5590B3C3F6E2E5C368F6F511 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4CF1BDD06294BA9BA1C0D232B801F8B4 /* Pods-FBTabBar_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		DC8D17C5006E2DD760A0945776F85CF5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1BAF71F7D3787603CC1C430F4A2D37FB /* FBTabBar.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E11E1320EFCBB298BE724EC9BEC42DD1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8BEF98EFE5AA5B53394A45BAC472945 /* SnapKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SnapKit/SnapKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SnapKit/SnapKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SnapKit/SnapKit.modulemap";
-				PRODUCT_MODULE_NAME = SnapKit;
-				PRODUCT_NAME = SnapKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EE550549DCDBF30FC1C257A494A349F3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72D3E9E5D6E3C028CCDF090A0BB9F4F7 /* Pods-FBTabBar_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		222902B0EFAA06BEA956175208AC3EA8 /* Build configuration list for PBXNativeTarget "Pods-FBTabBar_Example" */ = {
+		1328A9F6468E0D0C943A18601DB74755 /* Build configuration list for PBXNativeTarget "FBTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3665BBB5590B3C3F6E2E5C368F6F511 /* Debug */,
-				20CCCD7C2F728C3F2A6B053E0DB71B34 /* Release */,
+				5BFF8D4482FFC2AB06D3BFB3CDF9BE95 /* Debug */,
+				829138FB42C3DC31B16A10DA0AC5CFED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -972,17 +730,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E66A8223446264835B6291D2C9692CA /* Build configuration list for PBXAggregateTarget "FBTabBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				785F2E3A6C7CDCAEFC6CE7D66D331654 /* Debug */,
-				DC8D17C5006E2DD760A0945776F85CF5 /* Release */,
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -990,17 +739,17 @@
 		9E6C51A480DC1CA0ED49538C57D1CE67 /* Build configuration list for PBXNativeTarget "Pods-FBTabBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				408F62F4017C6F985652E2F35615F7A1 /* Debug */,
-				EE550549DCDBF30FC1C257A494A349F3 /* Release */,
+				80CC536A94C44603340FAAAA78C4E922 /* Debug */,
+				98F0F3163786959405625E8BE08D8C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F6811740E6ABD108D7D7599F840EFCA2 /* Build configuration list for PBXNativeTarget "SnapKit" */ = {
+		B5301A13F998280A8ABC0F813940F16C /* Build configuration list for PBXNativeTarget "Pods-FBTabBar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				96ABB14220D10826DD905FB2779AA2A7 /* Debug */,
-				E11E1320EFCBB298BE724EC9BEC42DD1 /* Release */,
+				7383746B408CDAC03F5A2147131F9BC8 /* Debug */,
+				CD138741C338E9D31348BD135B60D73D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

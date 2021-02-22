@@ -1,23 +1,21 @@
 PODS:
-  - FBTabBar (0.1.0):
-    - SnapKit
-  - SnapKit (4.2.0)
+  - FBTabBar (0.1.0)
 
 DEPENDENCIES:
-  - FBTabBar (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - SnapKit
+  - FBTabBar (from `https://github.com/flybear123/FBTabBar.git`)
 
 EXTERNAL SOURCES:
   FBTabBar:
-    :path: "../"
+    :git: https://github.com/flybear123/FBTabBar.git
+
+CHECKOUT OPTIONS:
+  FBTabBar:
+    :commit: d6a4aad2df20e4d1aabac307c21492238e223d90
+    :git: https://github.com/flybear123/FBTabBar.git
 
 SPEC CHECKSUMS:
-  FBTabBar: a9d714ced55b3e1cf8191a1963f75c4a3b5773c3
-  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  FBTabBar: 34e34455f03d65ec32831f1a4f10d23f6eff60bb
 
-PODFILE CHECKSUM: 671f17fea289cb0e27da79d87c9d1bbb6ac53e0f
+PODFILE CHECKSUM: 35cb21ecade3c42a89538704da47edc6e5efd7c0
 
 COCOAPODS: 1.10.1
