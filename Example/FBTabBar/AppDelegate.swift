@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  FBTabBar
+//  FBTabBarPod
 //
-//  Created by flybear123 on 02/22/2021.
+//  Created by flybear123 on 02/21/2021.
 //  Copyright (c) 2021 flybear123. All rights reserved.
 //
 
@@ -16,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let tabbarVC = BBRootPageBuilder.shared.creatRootViewController()
+
+        self.window = UIWindow.init(frame: UIScreen.main.bounds)
+        self.window?.backgroundColor = .white
+        self.window?.rootViewController = tabbarVC
+        self.window?.makeKeyAndVisible()
+        
+        
         return true
     }
 

@@ -14,6 +14,10 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7B18114480062D58DD8B67E5 /* Pods_FBTabBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96BBF2DDC8E75320BC0F417A /* Pods_FBTabBar_Example.framework */; };
+		843A561825E38E2300AC609D /* BBKnowledgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A561225E38E2300AC609D /* BBKnowledgeViewController.swift */; };
+		843A561925E38E2300AC609D /* BBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A561425E38E2300AC609D /* BBProfileViewController.swift */; };
+		843A561A25E38E2300AC609D /* BBHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A561625E38E2300AC609D /* BBHomePageViewController.swift */; };
+		843A561B25E38E2300AC609D /* BBRootPageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A561725E38E2300AC609D /* BBRootPageBuilder.swift */; };
 		AF035757FAE78AE3B07601A4 /* Pods_FBTabBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5B05B347771F32618B0FEF /* Pods_FBTabBar_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F156141ECFD5210C4BC1A64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0F156141ECFD5210C4BC1A64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		387582A58F2066FB1938BC79 /* Pods-FBTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTabBar_Example.release.xcconfig"; path = "Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* FBTabBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBTabBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +45,16 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7A33E5C76B5D737E9EA9EF5F /* Pods-FBTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTabBar_Example.debug.xcconfig"; path = "Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8F1896FF89A89A71FCAF584D /* FBTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FBTabBar.podspec; path = ../FBTabBar.podspec; sourceTree = "<group>"; };
+		843A561225E38E2300AC609D /* BBKnowledgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBKnowledgeViewController.swift; sourceTree = "<group>"; };
+		843A561425E38E2300AC609D /* BBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBProfileViewController.swift; sourceTree = "<group>"; };
+		843A561625E38E2300AC609D /* BBHomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBHomePageViewController.swift; sourceTree = "<group>"; };
+		843A561725E38E2300AC609D /* BBRootPageBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BBRootPageBuilder.swift; sourceTree = "<group>"; };
+		8F1896FF89A89A71FCAF584D /* FBTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FBTabBar.podspec; path = ../FBTabBar.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C8F7150B97F26A6D0504D8 /* Pods-FBTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTabBar_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		96BBF2DDC8E75320BC0F417A /* Pods_FBTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC000EBCB671A414EB78279 /* Pods-FBTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTabBar_Tests.release.xcconfig"; path = "Target Support Files/Pods-FBTabBar_Tests/Pods-FBTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DD5B05B347771F32618B0FEF /* Pods_FBTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF5EC58C439E60B3B2FF8EAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF5EC58C439E60B3B2FF8EAB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,9 @@
 		607FACD21AFB9204008FA782 /* Example for FBTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				843A561125E38E2300AC609D /* Knowledge */,
+				843A561525E38E2300AC609D /* Main */,
+				843A561325E38E2300AC609D /* Me */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,9 +158,33 @@
 				93C8F7150B97F26A6D0504D8 /* Pods-FBTabBar_Tests.debug.xcconfig */,
 				ADC000EBCB671A414EB78279 /* Pods-FBTabBar_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		843A561125E38E2300AC609D /* Knowledge */ = {
+			isa = PBXGroup;
+			children = (
+				843A561225E38E2300AC609D /* BBKnowledgeViewController.swift */,
+			);
+			path = Knowledge;
+			sourceTree = SOURCE_ROOT;
+		};
+		843A561325E38E2300AC609D /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				843A561425E38E2300AC609D /* BBProfileViewController.swift */,
+			);
+			path = Me;
+			sourceTree = SOURCE_ROOT;
+		};
+		843A561525E38E2300AC609D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				843A561625E38E2300AC609D /* BBHomePageViewController.swift */,
+				843A561725E38E2300AC609D /* BBRootPageBuilder.swift */,
+			);
+			path = Main;
+			sourceTree = SOURCE_ROOT;
 		};
 		C235F704D780191F5382271A /* Frameworks */ = {
 			isa = PBXGroup;
@@ -227,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -269,11 +305,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-FBTabBar_Example/Pods-FBTabBar_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBTabBar/FBTabBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBTabBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -331,7 +367,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843A561A25E38E2300AC609D /* BBHomePageViewController.swift in Sources */,
+				843A561925E38E2300AC609D /* BBProfileViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				843A561825E38E2300AC609D /* BBKnowledgeViewController.swift in Sources */,
+				843A561B25E38E2300AC609D /* BBRootPageBuilder.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,7 +459,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FBTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +535,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FBTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

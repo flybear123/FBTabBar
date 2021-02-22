@@ -1,16 +1,23 @@
 PODS:
-  - FBTabBar (0.1.0)
+  - FBTabBar (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - FBTabBar (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
 
 EXTERNAL SOURCES:
   FBTabBar:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBTabBar: 34e34455f03d65ec32831f1a4f10d23f6eff60bb
+  FBTabBar: a9d714ced55b3e1cf8191a1963f75c4a3b5773c3
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: 5d418bd1c294092ca61ab9ce60e2b990270278ac
+PODFILE CHECKSUM: 671f17fea289cb0e27da79d87c9d1bbb6ac53e0f
 
 COCOAPODS: 1.10.1
