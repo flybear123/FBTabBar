@@ -1,0 +1,22 @@
+{
+  "name": "FBTabBar",
+  "version": "0.1.0",
+  "summary": "A short description of FBTabBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/flybear123/FBTabBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "flybear123": "liwxiong@126.com"
+  },
+  "source": {
+    "git": "https://github.com/flybear123/FBTabBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "FBTabBar/Classes/**/*"
+}

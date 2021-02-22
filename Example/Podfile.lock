@@ -1,0 +1,16 @@
+PODS:
+  - FBTabBar (0.1.0)
+
+DEPENDENCIES:
+  - FBTabBar (from `../`)
+
+EXTERNAL SOURCES:
+  FBTabBar:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBTabBar: 34e34455f03d65ec32831f1a4f10d23f6eff60bb
+
+PODFILE CHECKSUM: 5d418bd1c294092ca61ab9ce60e2b990270278ac
+
+COCOAPODS: 1.10.1
